@@ -44,13 +44,13 @@ var CONFIG = {
   ESTIMATED_TOTAL_DURATION: 15, // minutes
   TOTAL_BLOCKS: 3, // make sure this matches the numbers assigned in the stimulus info below
   BREAK_LENGTH: 10000, // ms length of break between blocks
-  REWARD_AMOUNT: 5, // cents; set to null if no monetary reward
-  TOTAL_REWARD: 6.00, // dollars
+  REWARD_AMOUNT: 20, // cents; set to null if no monetary reward
+  TOTAL_REWARD: 16.00, // dollars
   PLAY_REWARD_AUDIO: true,
   REWARD_IMAGE: 'img/reward.gif', // the image to show on a reward trial
   REWARD_SOUND: 'mp3/reward-coin-drop.mp3', // path to file (use mp3 if possible for browser compatibility), set to null if no sound
   SHOW_ACCURACY_AT_END: false, // show "you responded correctly on X of N trials" at the end screen?
-  SAVE_DATA_TYPE: 'cognition', // How data should be saved. Current options are 'tmb' for TestMyBrain, 'cognition' for cognition.run, and 'local' for downloading a CSV file.
+  SAVE_DATA_TYPE: 'local', // How data should be saved. Current options are 'tmb' for TestMyBrain, 'cognition' for cognition.run, and 'local' for downloading a CSV file.
   ID_MESSAGE: 'Please enter your task ID from the survey tab in the text box below. (Do not enter your worker ID):'
 }
 
