@@ -534,9 +534,8 @@ var final_screen = {
     if (CONFIG.REWARD_AMOUNT != null && CONFIG.REWARD_AMOUNT != 0) {
       output_html += `<p>You earned $${total_earned.toFixed(2)}!</p>`
     }
-    output_html += `<p>Please return to the REDCap tab to finish the surveys.
-           If you have any issues returning to REDCap, email Kaylee at <a style="color: DodgerBlue" href="mailto:knull@mclean.harvard.edu">knull@mclean.harvard.edu</a> and provide your worker ID.</p>`
-    return output_html;
+    output_html += `<p>Please contact the researcher.</p>`;
+return output_html;
   },
   on_load: function () {
     if (CONFIG.SAVE_DATA_TYPE == 'cognition') {
