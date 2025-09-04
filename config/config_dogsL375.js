@@ -31,9 +31,9 @@ var CONFIG = {
   // RESPONSE_DISPLAY_DURATION: 1000, // ms (how long to show the image corresponding to the response that the subject made) (not used currently)
   LEFT_KEY: 's', // use lowercase
   RIGHT_KEY: 'l', // use lowercase
-  LEFT_SHAPE: 'dogs', // use plural form
-  RIGHT_SHAPE: 'cats', // use plural form
-  BIAS_SHAPE: 'dogs', // this is only for the purpose of recording in the data. actual bias is determined by the trial variables in SECTION 4.
+  LEFT_SHAPE: 'squares', // use plural form
+  RIGHT_SHAPE: 'circles', // use plural form
+  BIAS_SHAPE: 'squares', // this is only for the purpose of recording in the data. actual bias is determined by the trial variables in SECTION 4.
   LEFT_EXAMPLE: 'img/7C_10S_yellow3.jpg', // for instructions page, example shown on the left side for left key
   RIGHT_EXAMPLE: 'img/7S_10C_yellow3.jpg', // for instructions page, example shown on the right side for right key
   LEFT_SINGLE_EXAMPLE: 'img/yellow_square.jpeg', // for instructions, a single example of the shape
@@ -45,13 +45,13 @@ var CONFIG = {
   TOTAL_BLOCKS: 3, // make sure this matches the numbers assigned in the stimulus info below
   BREAK_LENGTH: 10000, // ms length of break between blocks
   REWARD_AMOUNT: 5, // cents; set to null if no monetary reward
-  TOTAL_REWARD: 6.15, // dollars
+  TOTAL_REWARD: 5.85, // dollars
   PLAY_REWARD_AUDIO: true,
   REWARD_IMAGE: 'img/reward.gif', // the image to show on a reward trial
   REWARD_SOUND: 'mp3/reward-coin-drop.mp3', // path to file (use mp3 if possible for browser compatibility), set to null if no sound
   SHOW_ACCURACY_AT_END: false, // show "you responded correctly on X of N trials" at the end screen?
   SAVE_DATA_TYPE: 'local', // How data should be saved. Current options are 'tmb' for TestMyBrain, 'cognition' for cognition.run, and 'local' for downloading a CSV file.
-  ID_MESSAGE: 'Please enter your task ID from the survey tab in the text box below. (Do not enter your worker ID):'
+  ID_MESSAGE: 'Please enter your participant ID in the text box below:'
 }
 
 // SECTION 2 //
