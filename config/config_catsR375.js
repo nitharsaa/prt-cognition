@@ -31,21 +31,21 @@ var CONFIG = {
   // RESPONSE_DISPLAY_DURATION: 1000, // ms (how long to show the image corresponding to the response that the subject made) (not used currently)
   LEFT_KEY: 's', // use lowercase
   RIGHT_KEY: 'l', // use lowercase
-  LEFT_SHAPE: 'circles', // use plural form
-  RIGHT_SHAPE: 'squares', // use plural form
-  BIAS_SHAPE: 'squares', // this is only for the purpose of recording in the data. actual bias is determined by the trial variables in SECTION 4.
-  LEFT_EXAMPLE: 'img/7S_10C_yellow3.jpg', // for instructions page, example shown on the left side for left key
-  RIGHT_EXAMPLE: 'img/7C_10S_yellow3.jpg', // for instructions page, example shown on the right side for right key
-  LEFT_SINGLE_EXAMPLE: 'img/yellow_circle.jpeg', // for instructions, a single example of the shape
-  RIGHT_SINGLE_EXAMPLE: 'img/yellow_square.jpeg', // for instructions, a single example of the shape
-  LEFT_PREFIX: '7S_10C', // the part of the image filename that identifies that there are more LEFT_SHAPE than RIGHT_SHAPE
-  RIGHT_PREFIX: '7C_10S', // the part of the image filename that identifies that there are more RIGHT_SHAPE than LEFT_SHAPE
+  LEFT_SHAPE: 'squares', // use plural form
+  RIGHT_SHAPE: 'circles', // use plural form
+  BIAS_SHAPE: 'circles', // this is only for the purpose of recording in the data. actual bias is determined by the trial variables in SECTION 4.
+  LEFT_EXAMPLE: 'img/7C_10S_yellow3.jpg', // for instructions page, example shown on the left side for left key
+  RIGHT_EXAMPLE: 'img/7S_10C_yellow3.jpg', // for instructions page, example shown on the right side for right key
+  LEFT_SINGLE_EXAMPLE: 'img/yellow_square.jpeg', // for instructions, a single example of the shape
+  RIGHT_SINGLE_EXAMPLE: 'img/yellow_circle.jpeg', // for instructions, a single example of the shape
+  LEFT_PREFIX: '7C_10S', // the part of the image filename that identifies that there are more LEFT_SHAPE than RIGHT_SHAPE
+  RIGHT_PREFIX: '7S_10C', // the part of the image filename that identifies that there are more RIGHT_SHAPE than LEFT_SHAPE
   IMAGE_SIZE: 600, // pixels
   ESTIMATED_TOTAL_DURATION: 15, // minutes
   TOTAL_BLOCKS: 3, // make sure this matches the numbers assigned in the stimulus info below
   BREAK_LENGTH: 10000, // ms length of break between blocks
   REWARD_AMOUNT: 5, // cents; set to null if no monetary reward
-  TOTAL_REWARD: 6.15, // dollars
+  TOTAL_REWARD: 5.85, // dollars
   PLAY_REWARD_AUDIO: true,
   REWARD_IMAGE: 'img/reward.gif', // the image to show on a reward trial
   REWARD_SOUND: 'mp3/reward-coin-drop.mp3', // path to file (use mp3 if possible for browser compatibility), set to null if no sound
